@@ -1,0 +1,9 @@
+<launch>
+    <!-- Start the robot controller -->
+    <include file="$(find bb_control)/launch/bb_control.launch">
+        <arg name="bb_control" value="true"/>
+    </include>
+
+    <!-- Start the vision module and object detection node-->
+    <include file="$(find bb_perception)/launch/bb_perception.launch"/>
+</launch>

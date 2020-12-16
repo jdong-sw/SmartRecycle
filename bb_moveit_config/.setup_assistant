@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: bb_description
+    relative_path: urdf/bumblebee.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/bumblebee.srdf
+  CONFIG:
+    author_name: John Dong
+    author_email: john.dong93@gmail.com
+    generated_timestamp: 1607541877

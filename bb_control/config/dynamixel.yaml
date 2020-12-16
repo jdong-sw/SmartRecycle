@@ -1,0 +1,21 @@
+joint1:
+  ID: 1
+  GROUP: arm
+joint2:
+  ID: 2
+  GROUP: arm
+joint3:
+  ID: 3
+  GROUP: arm
+joint4:
+  ID: 4
+  GROUP: wrist
+joint5:
+  ID: 5
+  GROUP: wrist
+joint6:
+  ID: 6
+  GROUP: wrist
+joint7:
+  ID: 7
+  GROUP: wrist
