@@ -13,7 +13,7 @@ To only test the waste object detection model, start a python3 environment with 
 
 `pip install -r requirements_basic.txt`
 
-Then open the "Inference for Testing.ipynb" notebook file. Run the first couple of cells to load the YOLOv5s model trained on my data. Then run any of the following cells to run the model on random included sample images, image of your choice, or live from your webcam.
+Then open the "Inference for Testing.ipynb" notebook file in the "bb_perception/src/yolov5" directory. Run the first couple of cells to load the YOLOv5s model trained on my data. Then run any of the following cells to run the model on random included sample images, image of your choice, or live from your webcam.
 
 ## Installation
 
