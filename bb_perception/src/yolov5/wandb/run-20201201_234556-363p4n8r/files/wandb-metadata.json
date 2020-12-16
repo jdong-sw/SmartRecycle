@@ -1,0 +1,38 @@
+{
+    "os": "Linux-5.4.0-54-generic-x86_64-with-glibc2.29",
+    "python": "3.8.5",
+    "heartbeatAt": "2020-12-02T04:46:02.402188",
+    "startedAt": "2020-12-02T04:45:56.074910",
+    "docker": null,
+    "gpu": "GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--batch",
+        "16",
+        "--weights",
+        "./weights/yolov5s.pt",
+        "--data",
+        "../darknet/config.yaml",
+        "--epochs",
+        "200",
+        "--cache",
+        "--img",
+        "224",
+        "--hyp",
+        "./data/hyp.finetune.yaml"
+    ],
+    "state": "running",
+    "codePath": "train.py",
+    "program": "./train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "577f298d9b1a0e3874f685f54d641ac09a3cad3d"
+    },
+    "email": "john.dong93@gmail.com",
+    "root": "/media/johnisking/John Palace/Smart Recycle/yolov5",
+    "host": "john-AERO",
+    "username": "johnisking",
+    "executable": "/home/johnisking/pyenvs/yolo/bin/python3"
+}

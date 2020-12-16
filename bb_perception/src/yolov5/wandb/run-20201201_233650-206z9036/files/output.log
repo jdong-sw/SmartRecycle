@@ -1,0 +1,15 @@
+WARNING: --img-size 200 must be multiple of max stride 32, updating to 224
+WARNING: --img-size 200 must be multiple of max stride 32, updating to 224
+Scanning images:   0%|          | 0/375 [00:00<?, ?it/s]WARNING: Ignoring corrupted image and/or label ../darknet/images/train/Chips Bag 79.jpg: non-normalized or out of bounds coordinate labels
+Scanning '../darknet/labels/train' for images and labels... 216 found, 0 missing, 0 empty, 1 corrupted:  58%|█████▊    | 216/375 [00:00<00:00, 2148.01it/s]WARNING: Ignoring corrupted image and/or label ../darknet/images/train/Plastic Bottle 24.jpg: non-normalized or out of bounds coordinate labels
+WARNING: Ignoring corrupted image and/or label ../darknet/images/train/Soda Can 10.jpg: non-normalized or out of bounds coordinate labels
+Scanning '../darknet/labels/train' for images and labels... 375 found, 0 missing, 0 empty, 3 corrupted: 100%|██████████| 375/375 [00:00<00:00, 2168.72it/s]
+New cache created: ../darknet/labels/train.cache
+Scanning '../darknet/labels/train.cache' for images and labels... 375 found, 0 missing, 0 empty, 3 corrupted: 100%|██████████| 375/375 [00:00<?, ?it/s]Scanning '../darknet/labels/train.cache' for images and labels... 375 found, 0 missing, 0 empty, 3 corrupted: 100%|██████████| 375/375 [00:00<?, ?it/s]
+  0%|          | 0/372 [00:00<?, ?it/s]Caching images (0.0GB): 100%|██████████| 372/372 [00:00<00:00, 5930.49it/s]
+Traceback (most recent call last):
+  File "./train.py", line 492, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "./train.py", line 191, in train
+    assert mlc < nc, 'Label class %g exceeds nc=%g in %s. Possible class labels are 0-%g' % (mlc, nc, opt.data, nc - 1)
+AssertionError: Label class 7 exceeds nc=7 in ../darknet/config.yaml. Possible class labels are 0-6

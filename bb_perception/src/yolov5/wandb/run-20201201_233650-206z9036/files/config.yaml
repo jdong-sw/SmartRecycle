@@ -1,0 +1,132 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+adam:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 16
+bucket:
+  desc: null
+  value: ''
+cache_images:
+  desc: null
+  value: true
+cfg:
+  desc: null
+  value: ''
+data:
+  desc: null
+  value: ../darknet/config.yaml
+device:
+  desc: null
+  value: ''
+epochs:
+  desc: null
+  value: 200
+evolve:
+  desc: null
+  value: false
+exist_ok:
+  desc: null
+  value: false
+global_rank:
+  desc: null
+  value: -1
+hyp:
+  desc: null
+  value:
+    anchor_t: 2.91
+    box: 0.0296
+    cls: 0.243
+    cls_pw: 0.631
+    degrees: 0.373
+    fl_gamma: 0.0
+    fliplr: 0.5
+    flipud: 0.00856
+    hsv_h: 0.0138
+    hsv_s: 0.664
+    hsv_v: 0.464
+    iou_t: 0.2
+    lr0: 0.0032
+    lrf: 0.12
+    mixup: 0.243
+    momentum: 0.843
+    mosaic: 1.0
+    obj: 0.301
+    obj_pw: 0.911
+    perspective: 0.0
+    scale: 0.898
+    shear: 0.602
+    translate: 0.245
+    warmup_bias_lr: 0.05
+    warmup_epochs: 2.0
+    warmup_momentum: 0.5
+    weight_decay: 0.00036
+image_weights:
+  desc: null
+  value: false
+img_size:
+  desc: null
+  value:
+  - 200
+  - 200
+local_rank:
+  desc: null
+  value: -1
+log_imgs:
+  desc: null
+  value: 16
+multi_scale:
+  desc: null
+  value: false
+name:
+  desc: null
+  value: exp
+noautoanchor:
+  desc: null
+  value: false
+nosave:
+  desc: null
+  value: false
+notest:
+  desc: null
+  value: false
+project:
+  desc: null
+  value: runs/train
+rect:
+  desc: null
+  value: false
+resume:
+  desc: null
+  value: false
+save_dir:
+  desc: null
+  value: runs/train/exp2
+single_cls:
+  desc: null
+  value: false
+sync_bn:
+  desc: null
+  value: false
+total_batch_size:
+  desc: null
+  value: 16
+weights:
+  desc: null
+  value: ./weights/yolov5s.pt
+workers:
+  desc: null
+  value: 8
+world_size:
+  desc: null
+  value: 1
