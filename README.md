@@ -20,7 +20,7 @@ Then open the "Inference for Testing.ipynb" notebook file. Run the first couple 
 In order to setup your environment to run the full system, make sure you have ROS installed: (http://wiki.ros.org/ROS/Installation). Set up a catkin workspace and clone this repository into it. Finally, run `rosdep` to ensure you have the required packages.
 - Create workspace folder "mkdir -p ros_ws/src" for example
 - Source ROS: `source /opt/ros/<distro>/setup.bash`, replacing <distro> with your distribution of ROS
-- Clone repository into /src folder: `gi clone git https://github.com/noodlephile/SmartRecycle.git
+- Clone repository into /src folder: `git clone git https://github.com/noodlephile/SmartRecycle.git`
 - Run rosdep `rosdep install --from-paths src --ignore-src -r -y`
 - Install required python packages in your python virtual environment using: `pip install -r requirements.txt`
 
